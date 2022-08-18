@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headimg {
+  width: 100%;
+}
+
+.headimg img {
+  width: 100%;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productList>div {
+  width: calc(100% / 3 - 20px);
+  margin: auto;
+}
+
+.list {
+  /* width: calc(100% / 3 - 20px); */
+  margin: 10px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.list img {
+  width: 100%;
+}
+
+.list_con {
+  padding: 20px;
+}
+
+.list_con img {
+  width: 100%;
+}
